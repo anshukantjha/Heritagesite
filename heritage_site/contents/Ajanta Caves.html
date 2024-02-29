@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajanta Cave</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        /* Resetting default margin and padding */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body styles */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        /* Navbar styles */
+        .navbar {
+            background-color:rgb(54, 48, 48);
+            color: #fff;
+            padding: 20px 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            text-decoration: none;
+            color: #fff;
+        }
+
+        .nav-links {
+            list-style: none;
+        }
+
+        .nav-links li {
+            display: inline;
+            margin-left: 20px;
+        }
+
+        .nav-links li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        /* Section styles */
+        .section {
+            padding: 60px 0;
+        }
+
+        .container h2 {
+            font-size: 36px;
+            margin-bottom: 30px;
+        }
+
+        .container p {
+            font-size: 18px;
+        }
+
+        /* Gallery styles */
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+
+        .gallery img {
+            width: calc(33.33% - 20px);
+            margin-bottom: 20px;
+        }
+
+        /* Map styles */
+        .map {
+            height: 400px;
+            /* Adjust height as needed */
+            margin-bottom: 30px;
+        }
+
+        .map iframe {
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+
+        /* Footer styles */
+
+        footer {
+            background-color: rgb(54, 48, 48);
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .footer p {
+            font-size: 16px;
+        }
+
+        .footer-content {
+            padding-top: 1rem;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .footer-item {
+            flex: 1 1 300px;
+            padding: 0 20px;
+            margin-bottom: 20px;
+        }
+
+        .social-icons a {
+            color: #fff;
+            font-size: 24px;
+            margin: 0 10px;
+        }
+
+        .rights p {
+            font-size: 1.2rem;
+        }
+
+        /* Making Responsive */
+        /* Making Responsive */
+
+        /* For smaller screens, adjust padding and font sizes */
+        @media only screen and (max-width: 768px) {
+            .container {
+                padding: 0 10px;
+            }
+
+            .container h2 {
+                font-size: 28px;
+            }
+
+            .container p {
+                font-size: 16px;
+            }
+        }
+
+        /* For even smaller screens, adjust the navigation */
+        @media only screen and (max-width: 500px) {
+            .nav-links {
+                display: block;
+                text-align: center;
+                margin-top: 10px;
+            }
+
+            .nav-links li {
+                display: block;
+                margin: 10px 0;
+            }
+        }
+
+        /* For gallery images on smaller screens */
+        @media only screen and (max-width: 768px) {
+            .gallery img {
+                width: calc(50% - 10px);
+            }
+        }
+
+        @media only screen and (max-width: 500px) {
+            .gallery img {
+                width: 100%;
+            }
+        }
+
+        /* For footer on smaller screens */
+        @media only screen and (max-width: 768px) {
+            .footer-item {
+                flex: 1 1 100%;
+            }
+        }
+
+        @media only screen and (max-width: 500px) {
+            .footer-item {
+                flex: 1 1 100%;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="Ajanta Caves.html" class="logo">Ajanta Cave</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#location">Location</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Ajanta Cave</h2>
+            <p>The Ajanta Caves are 29 rock-cut Buddhist cave monuments dating from the second century BCE to about 480
+                CE in the Aurangabad district of Maharashtra state in India.[1][2][3] Ajanta Caves are a UNESCO World
+                Heritage Site.[2] Universally regarded as masterpieces of Buddhist religious art, the caves include
+                paintings and rock-cut sculptures described as among the finest surviving examples of ancient Indian
+                art, particularly expressive paintings that present emotions through gesture, pose and form.[4][5][6]
+                The caves were built in two phases, the first starting around the second century BCE and the second
+                occurring from 400 to 650 CE, according to older accounts, or in a brief period of 460–480 CE according
+                to later scholarship.[7]</p>
+        </div>
+    </section>
+
+    <section id="gallery" class="section">
+        <div class="container">
+            <h2>Gallery</h2>
+            <div class="gallery">
+                <img src="https://source.unsplash.com/random/356×195?ajanta" alt="Ajanta Caves Image 1">
+                <img src="https://source.unsplash.com/random/356×195?ajantacave" alt="Ajanta Caves Image 2">
+                <img src="https://source.unsplash.com/random/356×195?ajantacaves" alt="Ajanta Caves Image 3">
+            </div>
+        </div>
+    </section>
+
+    <section id="location" class="section">
+        <div class="container">
+            <h2>Location</h2>
+            <div class="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1867.933081775134!2d75.69939428850495!3d20.552656206733605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd97f700a72dc71%3A0xc444906345befaff!2sAjanta%20Cave!5e0!3m2!1sen!2sin!4v1709234342242!5m2!1sen!2sin"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-item">
+                <h3>About Me</h3>
+                <p>Anshu Anand Jha</p>
+                <p>Roll-No.:2346006</p>
+            </div>
+            <div class="footer-item">
+                <h3>Contact Me</h3>
+                <p>Email: kantjhaanshu007@gmail.com</p>
+                <p>Phone: 9905795383</p>
+            </div>
+            <div class="footer-item">
+                <h3>Follow Me</h3>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/anshu-kant-jha-1b3ba2247/" target="_blank"><i
+                            class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.linkedin.com/in/anshu-kant-jha-1b3ba2247/" target="_blank"><i
+                            class="fa-brands fa-github"></i></a>
+                    <a href="https://www.instagram.com/anshukant008/" target="_blank"><i
+                            class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/anshu-kant-jha-1b3ba2247/" target="_blank"><i
+                            class="fa-brands fa-facebook"></i></a>
+
+                </div>
+            </div>
+        </div>
+        <div class="rights">
+            <p>&copy; 2024 Agra Fort. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
