@@ -185,7 +185,7 @@ form label {
     /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
 }
 
-@media (max-width:1100px) {
+/* @media (max-width:1100px) {
 
     .main_container,
     .natural_container {
@@ -207,9 +207,8 @@ form label {
     .main_container,
     .natural_container {
         grid-template-columns: repeat(1, 1fr);
-
     }
-}
+} */
 
 .card_container {
     /* border: 2px solid orange; */
@@ -278,20 +277,15 @@ form label {
 
 }
 
-.author_info {
+.location{
+    font-size: 2rem;
+}
+
+.location_info {
     display: flex;
     flex-direction: column;
 }
 
-
-.author_avatar {
-    height: 2.5rem;
-    width: 2.5rem;
-    overflow: hidden;
-    border: 1px solid rgb(55, 49, 49);
-    border-radius: 90%;
-    background-color: rgb(187, 174, 174);
-}
 
 .tag_container {
     display: flex;
@@ -302,6 +296,10 @@ form label {
 
 .tag_container span {
     border: 1px solid black;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    padding: 6px;
 }
 
 .type {
