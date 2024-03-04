@@ -149,17 +149,24 @@ form label {
 .login i {
     margin: 0 5px;
 }
+@media only screen and (max-width: 500px) {
+    .navbar-nav {
+        display: block;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .nav-links a {
+        display: block;
+        margin: 10px 0;
+    }
+}
 
 @media screen and (max-width: 600px) {
     .navbar {
         flex-direction: column;
         padding: 10px;
     }
-
-    .navbar-nav {
-        margin-top: 10px;
-    }
-
     .dropdown-content {
         position: static;
         display: none;
