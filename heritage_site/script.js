@@ -36,31 +36,6 @@ contactLink.addEventListener('click', function (event) {
 });
 
 
-const styleElement = document.createElement('style');
-const cssCode = `
-    @media (max-width: 1100px) {
-        .main_container {
-            grid-template-columns: repeat(3, 1fr);
-        }
-    }
-    @media (max-width: 880px) {
-        .main_container {
-            grid-template-columns: repeat(2, 1fr);
-        }
-    }
-    @media (max-width: 650px) {
-        .main_container {
-            grid-template-columns: repeat(1, 1fr);
-        }
-    }
-`;
-if (styleElement.styleSheet) {
-    styleElement.styleSheet.cssText = cssCode;
-} else {
-    styleElement.appendChild(document.createTextNode(cssCode));
-}
-document.head.appendChild(styleElement);
-
 const cardData = [
     // CULTURAL
     // Ajanta Cave
