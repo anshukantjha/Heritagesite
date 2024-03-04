@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Heritage Site - India</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- for social icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="navbar-brand">
+                <a href="index.html"><img src="images/logo.png" alt="Logo"> </a>
+                <span>Unesco <span id="india">India's</span> Heritage</span>
+            </div>
+            <div class="navbar-nav">
+                <a href="index.html">Home</a>
+                <a href="#about">About</a>
+                <a href="#">Services
+                    <i class="fa-solid fa-angle-down"></i>
+                </a>
+                <div class="dropdown-content">
+                    <a href="#">Service1</a>
+                    <a href="#">Service2</a>
+                </div>
+                <a href="#contact">Contact</a>
+                <a href="#" style="font-size: 1.2rem" onclick="openLoginPopup()">
+                    <i class="fa-solid fa-user"></i>
+                    Login
+                </a>
+
+            </div>
+        </div>
+
+        <div class="popup" id="loginPopup">
+            <div class="popup-content">
+                <span class="close" onclick="closeLoginPopup()">&times;</span>
+                <!-- Login Form Goes Here -->
+                <h2>Login Form</h2>
+                <form>
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username"><br><br>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password"><br><br>
+                    <input type="submit" value="Login" id="login">
+                </form>
+            </div>
+        </div>
+
+        <h3 class="type">Cultural</h3>
+        <main class="main_container">
+            <!-- card1 start here -->
+            <div class="card_container">
+                <a href="agra_fort.html" class="image_container">
+                    <img src="images/agra_fort.jpg" alt="card1_image" class="card_image" loading="lazy">
+                </a>
+                <div class="card_title_container">
+                    <a href="agra_fort.html" class="card_title_anchor" target="_blank">
+                        <h3 class="card_title">Agra-Fort</h3>
+                    </a>
+                    <p class="card_desc">
+                        Agra Fort is a historical fort in the city of Agra in India. It was the main residence of the
+                        emperors of the Mughal Dynasty till 1638.
+                    </p>
+                </div>
+                <div class="card_footer">
+                    <div class="card_author">
+                        <div class="location">
+                            <!-- <img src="https://api.dicebear.com/7.x/notionists/svg?seed=alpha?size=64" alt="Avatar"
+                                loading="lazy"> -->
+                                <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <div class="location_info">
+                            <span>
+                                U.P
+                            </span>
+                            <span>
+                                1631-1648
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="tag_container">
+                        <span>Fort</span>
+                    </div>
+                </div>
+            </div>
+            <!-- card1 end here -->
+        </main>
+        <h3 class="type">Natural</h3>
+        <main class="natural_container">
+            <!-- card1 start here -->
+            <div class="card_container">
+                <a href="#" class="image_container">
+                    <img src="images/kaziranga.jpg" alt="kaziranga" class="card_image" loading="lazy">
+                </a>
+                <div class="card_title_container">
+                    <a href="#" class="card_title_anchor" target="_blank">
+                        <h3 class="card_title">KaziRanga</h3>
+                    </a>
+                    <p class="card_desc">
+                        In the heart of Assam, this park is one of the last areas in eastern India undisturbed by a
+                        human presence. It is inhabited by rhino which are one horned.
+                    </p>
+                </div>
+                <div class="card_footer">
+                    <div class="card_author">
+                        <div class="location">
+                            <!-- <img src="https://api.dicebear.com/7.x/notionists/svg?seed=alpha?size=64" alt="Avatar"
+                                loading="lazy"> -->
+                                <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <div class="location_info">
+                            <span>
+                                Assam
+                            </span>
+                            <span>
+                                20th C.E
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="tag_container">
+                        <span>Park</span>
+                    </div>
+                </div>
+            </div>
+            <!-- card1 end here -->
+        </main>
+        <h3 class="type">Mixed</h3>
+        <main class="natural_container">
+            <!-- card1 start here -->
+            <div class="card_container">
+                <a href="#" class="image_container">
+                    <img src="images/kazedou.jpg" alt="Khangchendzonga Park" class="card_image" loading="lazy">
+                </a>
+                <div class="card_title_container">
+                    <a href="#" class="card_title_anchor" target="_blank">
+                        <h3 class="card_title">Khangchendzonga National Park</h3>
+                    </a>
+                    <p class="card_desc">
+                        Located at the heart of the Himalayan range in northern India (State of Sikkim), the
+                        Khangchendzonga National Park includes a unique diversity of plains, valleys.
+                    </p>
+                </div>
+                <div class="card_footer">
+                    <div class="card_author">
+                        <div class="location">
+                            <!-- <img src="https://api.dicebear.com/7.x/notionists/svg?seed=alpha?size=64" alt="Avatar"
+                                loading="lazy"> -->
+                                <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <div class="location_info">
+                            <span>
+                                Sikkim
+                            </span>
+                            <span>
+                                13th C.E
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="tag_container">
+                        <span>Park</span>
+                    </div>
+                </div>
+            </div>
+            <!-- card1 end here -->
+        </main>
+        <footer>
+            <div class="footer-content">
+                <div class="footer-item">
+                    <h3>About Me</h3>
+                    <p>Anshu Anand Jha</p>
+                    <p>Roll-No.:2346006</p>
+                </div>
+                <div class="footer-item">
+                    <h3>Contact Me</h3>
+                    <p>Email: kantjhaanshu007@gmail.com</p>
+                    <p>Phone: 9905795383</p>
+                </div>
+                <div class="footer-item">
+                    <h3>Follow Me</h3>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/anshu-kant-jha-1b3ba2247/" target="_blank"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/anshukantjha" target="_blank"><i
+                                class="fa-brands fa-github"></i></a>
+                        <a href="https://www.instagram.com/anshukant008/" target="_blank"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/anshu.kant.712/" target="_blank"><i
+                                class="fa-brands fa-facebook"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="rights">
+                <p>&copy; 2024 India's Heritage . All rights reserved.</p>
+            </div>
+        </footer>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
